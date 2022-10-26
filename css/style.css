@@ -37,7 +37,7 @@ body {
 }
 
 .contenidoPrincipal {
-	margin-top: 20px;
+	margin-top: 30px;
 	margin-bottom: 20px;
 }
 
@@ -50,12 +50,13 @@ body {
 
 .contenidoPrincipal-cursos-link {
 	height: 100px;
-	background-color: #FFF;
+	background-color:#FFF;
 	text-align: center;
 	margin: 1%;
 	transition: .3s;
-	box-shadow: 2px 2px 2px #CCC;
+	box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
 	position: relative;
+	border-radius: 10px;
 }
 
 .contenidoPrincipal-cursos-link a {
@@ -172,12 +173,13 @@ body {
 
 .videoSobre {
 	background-color: #5E9EDC;
-	padding: 25px 0;
+	padding: 35px 0;
 
 }
 
 .videoSobre-video {
 	max-width: 100%;
+	border-radius: 20px;
 }
 
 .videoSobre .container {
@@ -195,14 +197,16 @@ body {
 }
 
 .videoSobre-button {
-	border-radius: 8px;
+	border-radius: 10px;
 	background-color: #ec6e5a;
 	display: block;
 	color: #FFF;
 	border: none;
+	width: 150px;
 	height: 50px;
 	font-size: .8em;
 	outline: none;
+	margin-top: 10px;
 }
 
 .rodapePrincipal-contatoForm-legend {

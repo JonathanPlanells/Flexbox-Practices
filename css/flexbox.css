@@ -9,7 +9,7 @@
     display: flex;
 }
 
-/* ::: FOOTER ::::: */
+/* :::: FOOTER ::::: */
 .rodapePrincipal-patrocinadores .container{
     display: flex;
     justify-content: space-between;
@@ -24,6 +24,33 @@
 .rodapePrincipal-contatoForm{
     width: 25%;
 }
+
+/* :::: MAPA DE CURSOS ::::: */
 .rodapePrincipal-contatoForm-fieldset{
+    display: flex;
+}
+.rodapePrincipal-navMap-list{
+    display: flex;
+    flex-direction:column;
+    height: 15.625rem; /* 250px */
+    flex-wrap: wrap;
+    
+}
+
+/* :::: NUESTROS CURSOS ::::: */
+
+.contenidoPrincipal-cursos{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0 20px 0;
+}
+.contenidoPrincipal-cursos-link{
+    display: flex;
+    width: 23%;
+    font-size: 0.813rem; /* 13px */
+   
+}
+
+.videoSobre .container{
     display: flex;
 }
