@@ -48,9 +48,68 @@
     display: flex;
     width: 23%;
     font-size: 0.813rem; /* 13px */
-   
 }
 
 .videoSobre .container{
     display: flex;
+}
+
+.videoSobre-sobre{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+.videoSobre-video{
+    flex-grow: 2;
+    flex-shrink: 3;
+}
+.videoSobre-sobre-list{
+    flex-grow: 1,5;
+}
+
+
+/* :::: RESPONSIVE SMARTPHONE ::::: */
+
+@media screen and (max-width: 768px){
+    .headerPrincipal .container{
+        flex-direction:  column;
+        align-items: initial;
+        text-align: center;
+    }
+    .headerPrincipal-nav{
+        flex-direction: column;
+    }
+    .contenidoPrincipal-cursos{
+        flex-direction: column;
+    }
+    .contenidoPrincipal-cursos-link{
+        width: 100%;
+    }
+    .rodapePrincipal-navMap-list{
+        height: auto;
+        flex-wrap: nowrap;
+    }
+    .rodapePrincipal-patrocinadores .container{
+        flex-direction: column;
+    }
+    .rodapePrincipal-contatoForm{
+        width: 100%;
+    }
+    .rodapePrincipal-patrocinadores-list{
+        width: 100%;
+        margin: 0;
+        align-items: center;
+    }
+    .rodapePrincipal-contatoForm-fieldset{
+        justify-content: center;
+    }
+    .videoSobre .container{
+        flex-direction: column;
+    }
+    .videoSobre-sobre{
+        margin-top: 20px;
+    }
+    .headerPrincipal-nav-link-app{
+        order: -1;
+    }
 }
